@@ -11,8 +11,9 @@ In this project we have developed a web-based application, which enables the use
 
 Convolution Neural Network:
 There are four main operations in the CNN:
-    1. Convolution: We extract features from the input image, preserves the spatial relationship between pixels by learning image features using small squares of input data.The  3x3     
-                    matrix is called the filter/Kernel/Feature Detector, and the matrix formed by applying the filter over the image and computing the dot product is called the 
+    
+    1. Convolution: We extract features from the input image, preserves the spatial relationship between pixels by learning image features using small squares of input data.The  
+                    3x3 matrix is called the filter/Kernel/Feature Detector, and the matrix formed by applying the filter over the image and computing the dot product is called the 
                     ‘Convolved Feature’ or ‘Activation Map’ or the ‘Feature Map‘. The more number of filters we have, the more image features get extracted and the better our network 
                     becomes at recognizing patterns in unseen images.
                     
