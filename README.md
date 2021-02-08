@@ -16,10 +16,10 @@ There are four main operations in the CNN:
                     ‘Convolved Feature’ or ‘Activation Map’ or the ‘Feature Map‘. The more number of filters we have, the more image features get extracted and the better our network 
                     becomes at recognizing patterns in unseen images.
                     
-    2. Activation Function (Relu): Relu stands for Rectified Linear Unit and is a non-linear operation. It perform element wise operation (applied per pixel) and replaces all negative 
-                                   pixel values in the feature map by zero. The output is given by = max(0,Input). The purpose of Relu is to introduce non-linearity in our CNN, since 
-                                   most of the real-world data we would want our CNN to learn would be non-linear.The Relu operation is applied to one of the feature maps obtained from 
-                                   the Convolution step and 	generates a new map referred as the ‘Rectified’ feature map.
+    2. Activation Function (Relu): Relu stands for Rectified Linear Unit and is a non-linear operation. It perform element wise operation (applied per pixel) and replaces all 
+                                   negative pixel values in the feature map by zero. The output is given by = max(0,Input). The purpose of Relu is to introduce non-linearity in our 
+                                   CNN, since most of the real-world data we would want our CNN to learn would be non-linear.The Relu operation is applied to one of the feature maps 
+                                   obtained from the Convolution step and generates a new map referred as the ‘Rectified’ feature map.
                                    
     3. The Pooling Step:  In this step we reduce the dimensionality of the Feature map, retaining the most important information. Spatial Pooling can be of different types: Max, 
                           Average, Sum etc.	
